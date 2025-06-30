@@ -22,15 +22,16 @@ The output of the models predicing smoker/non-smoker, which is a binary variable
 
 # Data exploration 
 The income distribution originally is distributed as follows:
-![image](https://github.com/user-attachments/assets/a909d978-c3a9-48df-8b50-f52bf9cc74bf)
+<img src="https://github.com/user-attachments/assets/a909d978-c3a9-48df-8b50-f52bf9cc74bf" style="width:600px;"/>
 
 After removing values above 100K, these values remained: 
 
-![image](https://github.com/user-attachments/assets/4a7be6a3-7217-44fc-921c-7054f9a26947)
+<img src="https://github.com/user-attachments/assets/4a7be6a3-7217-44fc-921c-7054f9a26947" style="width:600px;"/>
 
 The age is distributed as follows:
 
-![image](https://github.com/user-attachments/assets/6827d6f1-eb5c-4d4d-a677-febed74709f4)
+<img src="https://github.com/user-attachments/assets/6827d6f1-eb5c-4d4d-a677-febed74709f4" style="width:600px;"/>
+
 
 For a more in depth data exploration, see the jupyter notebook in this repository.
 
