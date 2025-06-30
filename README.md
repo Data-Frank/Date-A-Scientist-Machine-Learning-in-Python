@@ -56,7 +56,14 @@ Precision: 0.623
 Recall:    0.290  
 F1 Score:  0.396  
 
-While the random forest classifier has the highest accuracy, I still would prefer using the neural network due to its higher F1 score.
+
+As can be seen below, the eveluation metrics are devided about the same between each model. They have a high accuracy score and the other metrics are significanty lower.
+
+![Evaluation Metrics grouped by model](https://github.com/user-attachments/assets/1daa75df-dcce-4a13-8543-c71d0e303cae)
+
+Below it is easier to compare the different evauation metrics. They all have about the same accuracy, while the neural network clearly has a higher F1 score.
+![Evaluation Metrics grouped by Metric](https://github.com/user-attachments/assets/ccc77a1a-0e44-44c3-aa12-002ffddf7732)
+
 
 
 
