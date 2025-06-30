@@ -23,7 +23,11 @@ The output of the models predicing smoker/non-smoker, which is a binary variable
 # Results
 
 ### Income
-To predict income a neural network was used, as well as a multiple linear regression model. A mean average error of respectively 20,151.34 and  16,426.25, were found, which are both not great. The mutlipe linear regression model did outperform the neural network and would be best for this data set to predict one's income.  
+To predict income a neural network was used, as well as a multiple linear regression model. The mean average error A mean average error of the models were:
+- **Neural network:** 20,151.34  
+- **Multiple linear regression:** 16,426.25
+
+Both MAE's are pretty bad predictors, since the value range from 20,000 to 100,000. The mutlipe linear regression model did outperform the neural network and would be best for this data set to predict one's income.
   
 ### Smoker/non-smoker
 To predict if one smokes a neural network, a support vector machine, a random forest classifier and a logistic regression model were used. The evaluation metrics are shown below:  
