@@ -48,42 +48,44 @@ Both MAE's are pretty bad predictors, since the value range from 20,000 to 100,0
 To predict if one smokes a neural network, a support vector machine, a random forest classifier and a logistic regression model were used. The evaluation metrics are shown below:  
 
 **Neural Network:**   
-Accuracy:  0.744  
-Precision: 0.486  
-Recall:    0.552  
-F1 Score:  0.517    
+Accuracy:  0.764
+Precision: 0.620
+Recall:    0.167
+F1 Score:  0.263  
 
 **SVM:**  
-Accuracy:  0.719  
-Precision: 0.429  
-Recall:    0.397  
-F1 Score:  0.412  
+Accuracy:  0.707
+Precision: 0.401
+Recall:    0.395
+F1 Score:  0.398
 
 **Random Forest Classifier:**  
-Accuracy:  0.767  
-Precision: 0.541  
-Recall:    0.346  
-F1 Score:  0.422  
+Accuracy:  0.764
+Precision: 0.550
+Recall:    0.320
+F1 Score:  0.405
 
 **Logistic Regression:**  
-Accuracy:  0.765  
-Precision: 0.623  
-Recall:    0.290  
-F1 Score:  0.396  
+Accuracy:  0.789
+Precision: 0.628
+Recall:    0.356
+F1 Score:  0.454
 
 
 As can be seen below, the eveluation metrics are devided about the same between each model. They have a high accuracy score and the other metrics are significanty lower.
 
-![Evaluation Metrics grouped by model](https://github.com/user-attachments/assets/1daa75df-dcce-4a13-8543-c71d0e303cae)
+![Evaluation Metrics grouped by model1](https://github.com/user-attachments/assets/eda1b30e-51e8-49ca-bbb2-d1d17a6de840)
+
 
 Below it is easier to compare the different evauation metrics. They all have about the same accuracy, while the neural network clearly has a higher F1 score.
-![Evaluation Metrics grouped by Metric](https://github.com/user-attachments/assets/ccc77a1a-0e44-44c3-aa12-002ffddf7732)
+![Evaluation Metrics grouped by Metric 1](https://github.com/user-attachments/assets/e1f85ce3-61a3-4266-be65-e84a986c900d)
+
 
 
 
 
 # Conclusion
 
-Accurately predicting an individual's income is a challenging task. However, if such a prediction must be made, a simple linear regression model appears to outperform more complex models such as neural networks.
+Accurately predicting an individual's income is a challenging task. However, if such a prediction must be made, a simple linear regression model appears to outperform more complex models such as neural networks
 
-In contrast, when attempting to predict whether an individual is a smoker, a neural network is likely the most suitable model. That said, the model's performance—reflected by an F1 score of 0.517—indicates that it is still far from reliable. In practice, a direct inquiry may be a more effective and accurate approach.
+When attempting to predict wheter an invidividual is a smoker a logistic regressions is likely the most suitable model. That said, the model's performance—reflected by an F1 score of 0.454—indicates that it is still far from reliable. In practice, a direct inquiry may be a more effective and accurate approach.
