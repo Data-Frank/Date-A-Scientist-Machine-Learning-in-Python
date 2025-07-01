@@ -45,33 +45,33 @@ To predict income a neural network was used, as well as a multiple linear regres
 Both MAE's are pretty bad predictors, since the value range from 20,000 to 100,000. The mutlipe linear regression model did outperform the neural network and would be best for this data set to predict one's income.
   
 ### Smoker/non-smoker
-To predict if one smokes a neural network, a support vector machine, a random forest classifier and a logistic regression model were used. The evaluation metrics are shown below:  
+To predict if one smokes a neural network, a support vector machine, a random forest classifier and a logistic regression model were used. The evaluation metrics are shown below:    
+  
+**Neural Network:**     
+Accuracy:  0.764  
+Precision: 0.620  
+Recall:    0.167  
+F1 Score:  0.263    
+  
+**SVM:**    
+Accuracy:  0.707  
+Precision: 0.401  
+Recall:    0.395  
+F1 Score:  0.398  
+  
+**Random Forest Classifier:**    
+Accuracy:  0.764  
+Precision: 0.550  
+Recall:    0.320  
+F1 Score:  0.405  
+  
+**Logistic Regression:**    
+Accuracy:  0.789  
+Precision: 0.628  
+Recall:    0.356  
+F1 Score:  0.454  
 
-**Neural Network:**   
-Accuracy:  0.764
-Precision: 0.620
-Recall:    0.167
-F1 Score:  0.263  
-
-**SVM:**  
-Accuracy:  0.707
-Precision: 0.401
-Recall:    0.395
-F1 Score:  0.398
-
-**Random Forest Classifier:**  
-Accuracy:  0.764
-Precision: 0.550
-Recall:    0.320
-F1 Score:  0.405
-
-**Logistic Regression:**  
-Accuracy:  0.789
-Precision: 0.628
-Recall:    0.356
-F1 Score:  0.454
-
-
+  
 As can be seen below, the eveluation metrics are devided about the same between each model. They have a high accuracy score and the other metrics are significanty lower.
 
 ![Evaluation Metrics grouped by model1](https://github.com/user-attachments/assets/eda1b30e-51e8-49ca-bbb2-d1d17a6de840)
