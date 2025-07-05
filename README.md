@@ -86,6 +86,6 @@ Below it is easier to compare the different evauation metrics. They all have abo
 
 # Conclusion
 
-Accurately predicting an individual's income is a challenging task. However, if such a prediction must be made, a simple linear regression model appears to outperform more complex models such as neural networks
+Accurately predicting an individual's income is a challenging task. However, if such a prediction must be made, a simple linear regression model outperformed a more complex neural network model.
 
 When attempting to predict wheter an invidividual is a smoker a logistic regressions is likely the most suitable model. That said, the model's performance—reflected by an F1 score of 0.454—indicates that it is still far from reliable. In practice, a direct inquiry may be a more effective and accurate approach.
